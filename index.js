@@ -3,7 +3,7 @@ const date0 = () => {
 	var ampm = time.getHours() >= 12 ? ' PM' : ' AM';
 	let hours = time.getHours() % 12;
 	let times = time.getMinutes();
-	let fullTime = hours + 1 + ':' + times + ampm;
+	let fullTime = hours + ':' + times + ampm;
 	let fullTime1 = hours + 2 + ':' + times + ampm;
 	let fullTime2 = hours + 3 + ':' + times + ampm;
 	let fullTime3 = hours + 4 + ':' + times + ampm;
